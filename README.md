@@ -145,7 +145,7 @@ When the FastAPI server is offline, the API client gracefully switches to local 
 ## 5. Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher recommended, tested on Node v24)
+- Node.js (v18 or higher recommended, this was tested on Node v24)
 - npm or yarn
 
 ### Installation
