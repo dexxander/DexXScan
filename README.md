@@ -170,6 +170,18 @@ npm run build
 npm run preview
 ```
 
+### Backend URL configuration
+
+The frontend uses `VITE_API_BASE_URL` as the base URL for the optional FastAPI backend. It checks the backend health endpoint at `/api/v1/health`; if the backend is unavailable, the app stays usable with local demonstration data.
+
+To use a backend running somewhere other than the default `http://127.0.0.1:8000`, create a local `.env` file from the example and change the URL:
+
+```bash
+cp .env.example .env
+```
+
+Vite reads environment variables when it starts, so restart the development server after changing `.env`.
+
 ---
 
 ## 6. Future Python FastAPI Backend Integration
