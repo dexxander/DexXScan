@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldAlert, Terminal, Info, ExternalLink } from 'lucide-react';
+import { API_BASE_URL } from '../../services/api';
 
 interface DemoNoticeProps {
   variant?: 'banner' | 'card' | 'inline';
@@ -43,7 +44,7 @@ export const DemoNotice: React.FC<DemoNoticeProps> = ({
             <div className="flex items-center gap-4 text-[11px]">
               <span className="text-text-muted flex items-center gap-1">
                 <Terminal className="w-3 h-3 text-slate-400" />
-                FastAPI Target Engine: <span className="text-slate-300 font-mono">http://127.0.0.1:8000</span>
+                FastAPI Target Engine: <span className="text-slate-300 font-mono">{API_BASE_URL}</span>
               </span>
               {onOpenSettings && (
                 <button
