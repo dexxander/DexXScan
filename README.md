@@ -1,4 +1,4 @@
-# DexXScan — Website Security Assessment & Penetration Testing Platform (In Development)dsadsadsafdsfds
+# DexXScan — Website Security Assessment & Penetration Testing Platform (In Development)
 
 > **Next-Gen Cybersecurity SaaS Web Application** for authorized perimeter security evaluation, vulnerability scanning, attack surface analysis, and professional executive audit reporting.
 
